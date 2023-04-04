@@ -1,7 +1,27 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 header{
+    padding: 20px;
     background-color: black;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:orange;
+}
+main{
+    min-height: 200px;
+    margin: 100px;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
